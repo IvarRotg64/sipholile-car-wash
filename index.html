@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHILLER CARS - Home</title>
+  
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="stle.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>CHILLER CARS</h1>
+      <p>Your ultimate car wash & chill spot</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#subscriptions">Subscriptions</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to CHILLER CARS</h2>
+      <p>More than just a car wash, it's your new favorite hangout spot!</p>
+      <button id="learn-more">Learn More</button>
+    </section>
+
+    <section id="services" class="features">
+      <div class="feature">
+        <h3>Top-notch Car Wash</h3>
+        <p>Professional car care services to keep your ride spotless.</p>
+      </div>
+      <div class="feature">
+        <h3>Relax & Chill</h3>
+        <p>Enjoy delicious food and drinks while your car gets pampered.</p>
+      </div>
+      <div class="feature">
+        <h3>Flexible Subscriptions</h3>
+        <p>Affordable plans that offer convenience and loyalty rewards.</p>
+        <button id="subscribe-btn">Subscribe Now</button>
+      </div>
+    </section>
+
+    <section id="subscriptions" class="features">
+      <div class="feature">
+        <h3>Exclusive Subscription Plans</h3>
+        <p>Join our premium service for unlimited washes and perks!</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h3>Contact Us</h3>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required><br>
+        <input type="email" id="email" placeholder="Your Email" required><br>
+        <textarea id="message" placeholder="Your Message" required></textarea><br>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Subscription Modal -->
+  <div id="subscription-modal">
+    <div class="modal-content">
+      <h3>Subscribe to Our Plan</h3>
+      <form id="subscription-form">
+        <input type="text" id="subscriber-name" placeholder="Your Name" required>
+        <input type="email" id="subscriber-email" placeholder="Your Email" required>
+        <select id="plan">
+          <option value="basic">Basic Plan</option>
+          <option value="premium">Premium Plan</option>
+        </select>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 CHILLER CARS. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to the JavaScript file -->
+  <script src="app.js"></script>
+</body>
+</html>
